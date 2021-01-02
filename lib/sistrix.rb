@@ -1,7 +1,7 @@
 module Sistrix
   require 'sistrix/config'
 
-  SERVICE_HOST = 'api.sistrix.net'
+  SERVICE_HOST = 'api.sistrix.com'
 
 
   def self.method_missing(sym, *args, &block)
